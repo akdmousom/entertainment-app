@@ -1,0 +1,25 @@
+/* Inter fonts import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+/* Common shared styles */
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --primary-color: #FF1F3D;
+    --secondary-color: #25252533;
+    --text-color-user-name: #171717B2;
+}
+
+.deafultButton{
+    color: #252525B2;
+    background-color: var(--secondary-color);
+
+}
+
+.activeButton{
+    background-color: var(--primary-color);
+    color: white;
+}
+
